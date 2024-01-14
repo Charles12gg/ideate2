@@ -55,7 +55,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate1, onNavigate }) => {
 				</div>
 
 				{menuOpen && (
-					<div className="absolute  right-16 rounded-2xl bg-zinc-900 text-white w-36">
+					<div className="absolute font-lato right-16 rounded-2xl bg-zinc-900 text-white w-36">
 						<ul className="flex flex-col items-start p-2">
 							<li className="list-none p-3">
 								<a
@@ -129,7 +129,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate1, onNavigate }) => {
 								onClick={onNavigate}
 								className=" p-3 w-40 h-12 rounded-2xl bg-blue-600 text-white lg:flex lg:p-5 lg:w-64 lg:h-20 lg:ms-3 lg:rounded-2xl lg:duration-300 lg:transform lg:group-hover:bg-lime-400 lg:gap-2 lg:group-hover:text-black lg:group-hover:w-72 lg:group-hover:ms-0   "
 							>
-								<p className="flex ms-2 items-center text-base font-semibold lg:ms-11  lg:mt-1 lg:text-xl lg:font-semibold lg:duration-300 lg:transform lg:group-hover:ms-12 lg:group-hover:text-2xl   ">
+								<p className="flex ms-2 items-center text-base font-semibold font-lato lg:ms-11  lg:mt-1 lg:text-xl lg:font-semibold lg:duration-300 lg:transform lg:group-hover:ms-12 lg:group-hover:text-2xl   ">
 									{" "}
 									work with us<span className="mr-3"></span> <MdArrowOutward />
 								</p>

@@ -77,7 +77,7 @@ const ContactForm: React.FC<ContactUseProps> = ({
 					/>
 				</div>
 				{menuOpen && (
-					<div className="absolute right-16 rounded-2xl text-black bg-white w-36">
+					<div className="absolute font-lato right-16 rounded-2xl text-black bg-white w-36">
 						<ul className="flex flex-col items-start p-2">
 							<li className="list-none p-3">
 								<a
@@ -128,8 +128,7 @@ const ContactForm: React.FC<ContactUseProps> = ({
 				)}
 
 				<div className="w-full mb-1">
-					<p className="text-sm font-semibold">SAY HELLO</p>
-					<h2 className="text-4xl font-extrabold">CONTACT US</h2>
+					<h2 className="text-4xl font-general-sans font-extrabold">CONTACT US</h2>
 				</div>
 
 				{/* <div style={{ height: 20, backgroundColor: "black" }}></div> */}
@@ -148,7 +147,7 @@ const ContactForm: React.FC<ContactUseProps> = ({
         </div>
         </div> */}
 
-				<div className="flex flex-col w-full lg:gap-72 lg:flex-row ">
+				<div className="flex flex-col font-lato w-full lg:gap-72 lg:flex-row ">
 					<div className="flex flex-col gap-1">
 						<p className="text-xl font-bold ">hello@idetasolutions.tech</p>
 						<p className="text-xl">09999999999 / 09111111111</p>
@@ -162,12 +161,11 @@ const ContactForm: React.FC<ContactUseProps> = ({
 				</div>
 
 				<div>
-					<p className="text-sm font-semibold mt-12">WORK WITH US</p>
-					<h2 className="text-4xl font-extrabold">SEND US A MESSAGE</h2>
+					<h2 className="text-4xl font-general-sans font-extrabold">SEND US A MESSAGE</h2>
 				</div>
 
 				<form className="flex-col" onSubmit={submitForm}>
-					<div className="flex flex-col lg:flex-row gap-3">
+					<div className="flex flex-col font-lato lg:flex-row gap-3">
 						<input
 							name="name"
 							type="text"
@@ -187,7 +185,7 @@ const ContactForm: React.FC<ContactUseProps> = ({
 						/>
 					</div>
 
-					<div className="flex mt-3 lg:flex-row gap-3">
+					<div className="flex mt-3 font-lato lg:flex-row gap-3">
 						<div className="w-full p-3 border rounded-full text-white">
 							<select
 								name="service"
@@ -225,7 +223,7 @@ const ContactForm: React.FC<ContactUseProps> = ({
 					<textarea
 						name="message"
 						rows={4}
-						className="placeholder-white w-full p-3 border border-gray-300 rounded-xl bg-transparent text-white mt-3"
+						className="placeholder-white font-lato w-full p-3 border border-gray-300 rounded-xl bg-transparent text-white mt-3"
 						placeholder="Message"
 						onChange={handleChange}
 					/>
@@ -234,9 +232,9 @@ const ContactForm: React.FC<ContactUseProps> = ({
 							type="submit"
 							className=" flex p-5 w-48 h-16 ms-3 gap-2 duration-500 transform rounded-full mt-3 bg-blue-600 text-white  group-hover:bg-lime-400 group-hover:text-black group-hover:w-56 group-hover:ms-0 "
 						>
-							<p className="text ms-2 font-bold duration-500 group-hover:ms-7 ">
+							<p className="text ms-2 font-bold font-lato duration-500 group-hover:ms-7 ">
 								{" "}
-								let's get it done{" "}
+								Let's get it done{" "}
 							</p>
 							<MdArrowOutward className="h-5" />
 						</button>

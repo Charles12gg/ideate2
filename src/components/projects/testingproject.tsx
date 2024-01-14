@@ -136,7 +136,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 							animate ? "center-panel_1" : "translate-y-full"
 						}`}
 					>
-						<div className="flex flex-col mt-16 xl:mt-36 w-full px-2 transition duration-1000 ease-in-out group-hover:blur-md ">
+						<div className="flex flex-col mt-16 xl:mt-36 w-full px-2 font-general-sans transition duration-1000 ease-in-out group-hover:blur-md ">
 							<h2 className=" text-7xl lg:text-8xl text-center font-extrabold text-lime-400  ">
 								*
 							</h2>
@@ -175,7 +175,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 												alt="Logo"
 												className="h-12 w-12 ms-3 mt-12 lg:h-16 lg:w-16 lg:mt-16 group-hover:opacity-0 opacity-100 transition-opacity "
 											/>
-											<p className="text-base lg:text-lg mt-2 custom-heading1  leading-none font-bold text-left ms-3  ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%] ">
+											<p className="text-base lg:text-lg mt-2 custom-heading1  leading-none font-bold font-general-sans text-left ms-3  ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%] ">
 												BRAND <br></br> IDENTITY DESIGN
 											</p>
 											<div
@@ -183,7 +183,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 													hover ? "translate-x-0" : "-translate-x-full"
 												}`}
 											>
-												<p className="text-xs lg:text-base text-left leading-none">
+												<p className="text-xs lg:text-base font-lato text-left leading-none">
 													Through a thoughtful combination of elements, we
 													create a cohesive and impactful brand presence that
 													leaves a lasting impression on our client's business.
@@ -207,7 +207,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 												alt="Logo"
 												className="h-12 w-12 lg:h-16 lg:w-16 ms-3  mt-12 lg:mt-16 group-hover:opacity-0 opacity-100 transition-opacity  "
 											/>
-											<p className="text-base lg:text-lg custom-heading1  leading-none font-bold text-left ms-4 mt-1 ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%]">
+											<p className="text-base lg:text-lg custom-heading1 font-general-sans leading-none font-bold text-left ms-4 mt-1 ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%]">
 												WEB<br></br> DEVELOPMENT
 											</p>
 											<div
@@ -215,7 +215,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 													hover ? "translate-x-0" : "-translate-x-full"
 												}`}
 											>
-												<p className="text-xs lg:text-base text-left leading-none">
+												<p className="text-xs lg:text-base font-lato text-left leading-none">
 													With a focus on user-friendly interfaces, intuitive
 													design, and efficient coding, we build websites that
 													not only captivate visitors but also drive business
@@ -241,7 +241,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 												alt="Logo"
 												className="h-12 w-12 lg:h-16 lg:w-16 ms-3 mt-12 lg:mt-16 group-hover:opacity-0 opacity-100 transition-opacity   "
 											/>
-											<p className="text-base lg:text-lg custom-heading1 leading-none font-bold text-left ms-4 mt-2 ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%]">
+											<p className="text-base lg:text-lg custom-heading1 font-general-sans leading-none font-bold text-left ms-4 mt-2 ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%]">
 												SOFTWARE <br></br> DEVELOPMENT
 											</p>
 											<div
@@ -249,7 +249,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 													hover ? "translate-x-0" : "-translate-x-full"
 												}`}
 											>
-												<p className="text-xs lg:text-base  text-left leading-none">
+												<p className="text-xs lg:text-base font-lato text-left leading-none">
 													With a meticulous approach to coding, rigorous quality
 													assurance, and user-centric mindset, we deliver
 													reliable and effiecient software applications that
@@ -274,7 +274,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 												alt="Logo"
 												className="h-12 w-12 lg:h-16 lg:w-16 ms-3 mt-12 lg:mt-16 group-hover:opacity-0 opacity-100 transition-opacity   "
 											/>
-											<p className="text-base lg:text-lg custom-heading1 leading-none font-bold text-left ms-4 mt-2 ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%]">
+											<p className="text-base lg:text-lg custom-heading1 font-general-sans leading-none font-bold text-left ms-4 mt-2 ease-in-out duration-500 transform group-hover:translate-y-[-300%] lg:group-hover:translate-y-[-350%]">
 												STAFF <br></br> AUGMENTATION
 											</p>
 											<div
@@ -282,7 +282,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 													hover ? "translate-x-0" : "-translate-x-full"
 												}`}
 											>
-												<p className="text-xs lg:text-base text-left leading-none">
+												<p className="text-xs lg:text-base font-lato text-left leading-none">
 													We carefully match our clients with experienced and
 													qualified talents who seamlessly integrate into their
 													workflows and contribute to the sucess of their
@@ -301,7 +301,7 @@ const BGS: React.FC<BGSProps> = ({ onNavigate }) => {
 								onClick={onNavigate}
 								className=" flex p-5 w-44 h-16 gap-2 duration-500 transform rounded-2xl mt-10 bg-blue-600 text-white group-hover:bg-lime-400 group-hover:text-black group-hover:w-56 group-hover:h-20 group-hover:mt-8 "
 							>
-								<p className="text-center ms-2 font-bold duration-500 transform group-hover:ms-5 group-hover:mt-1.5 group-hover:text-xl ">
+								<p className="text-center ms-2 font-bold font-lato duration-500 transform group-hover:ms-5 group-hover:mt-1.5 group-hover:text-xl ">
 									{" "}
 									see our work
 								</p>
