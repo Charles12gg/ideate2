@@ -40,24 +40,24 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate1, onNavigate }) => {
 				</div>
 			</div> */}
 			<div className="flex flex-col mb-24 mx-auto lg:max-w-screen-xl lg:mt-20 lg:mb-72   ">
-				<div className="flex justify-end ">
-					<MdMenu
-						className="text-white text-5xl cursor-pointer me-2 lg:hidden"
-						onClick={toggleMenu}
-					/>
+				<div className=" flex justify-end ">
 				</div>
-				<div className="flex flex-row justify-between px-2 ">
+				<div className="flex flex-row py-3 justify-between px-2 ">
 					<img
 						src={logo}
 						alt="Static Icon"
 						className=" w-20 ms-5 sm:ms-10 lg:hidden mb-24 "
 					/>
+						<MdMenu
+						className="absolute text-white right-5 top- text-5xl cursor-pointer me-2 lg:hidden"
+						onClick={toggleMenu}
+					/>
 				</div>
 
 				{menuOpen && (
-					<div className="absolute font-lato right-16 rounded-2xl bg-zinc-900 text-white w-36">
+					<div className="absolute font-lato right-8 top-24 w-36 h-50 bg-zinc-900 text-white flex items-center justify-center rounded-2xl">
 						<ul className="flex flex-col items-start p-2">
-							<li className="list-none p-3">
+							<li className="list-none my-1 p-2">
 								<a
 									href="#home"
 									onClick={(e) => {
@@ -70,7 +70,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate1, onNavigate }) => {
 									HOME
 								</a>
 							</li>
-							<li className="list-none p-2">
+							<li className="list-none my-1 p-2">
 								<a
 									href="#works"
 									onClick={(e) => {
@@ -83,7 +83,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate1, onNavigate }) => {
 									WORKS
 								</a>
 							</li>
-							<li className="list-none p-2">
+							<li className="list-none my-1 p-2">
 								<a
 									href="#iteam"
 									onClick={(e) => {
@@ -96,7 +96,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate1, onNavigate }) => {
 									TEAM
 								</a>
 							</li>
-							<li className="list-none p-2">
+							<li className="list-none my-1 p-2">
 								<a href="#contact" onClick={onNavigate}>
 									CONTACT
 								</a>

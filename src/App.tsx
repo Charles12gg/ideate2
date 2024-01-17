@@ -58,7 +58,7 @@ function App() {
 					<HomePage
 						onNavigate1={onNavigate1}
 						onNavigate={navigateToContactUs}
-					/><Error />
+					/><ITeam />
 
 					{/* Other components */}
 					<BGS onNavigate={navigateToProjDetails} />

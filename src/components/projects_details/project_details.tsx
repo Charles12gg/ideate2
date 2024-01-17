@@ -36,9 +36,9 @@ const Proj_Details: React.FC<ContactUseProps> = ({
 					/>
 				</div>
 				{menuOpen && (
-					<div className="absolute top-11 font-lato right-16 rounded-2xl text-black bg-white w-36">
+					<div className="absolute font-lato right-6 top-24 w-36 h-50 bg-white text-black flex items-center justify-center rounded-2xl">
 						<ul className="flex flex-col items-start p-2">
-							<li className="list-none p-3">
+							<li className="list-none my-1 p-2">
 								<a
 									href="#home"
 									onClick={(e) => {
@@ -51,7 +51,7 @@ const Proj_Details: React.FC<ContactUseProps> = ({
 									HOME
 								</a>
 							</li>
-							<li className="list-none p-2">
+							<li className="list-none my-1 p-2">
 								<a
 									href="#works"
 									onClick={(e) => {
@@ -64,7 +64,7 @@ const Proj_Details: React.FC<ContactUseProps> = ({
 									WORKS
 								</a>
 							</li>
-							<li className="list-none p-2">
+							<li className="list-none my-1 p-2">
 								<a
 									href="#iteam"
 									onClick={(e) => {
@@ -77,7 +77,7 @@ const Proj_Details: React.FC<ContactUseProps> = ({
 									TEAM
 								</a>
 							</li>
-							<li className="list-none p-2">
+							<li className="list-none my-1 p-2">
 								<a href="#contact" onClick={onNavigate}>
 									CONTACT
 								</a>
